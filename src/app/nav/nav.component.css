@@ -1,0 +1,37 @@
+.nav-top {
+    background: #000;
+    clear: both;
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+}
+.nav-img {
+    width: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.nav-title {
+    font-size: 16px;
+    width: 35px !important;
+    text-align: center;
+}
+.nav-title {
+    position: absolute;
+    left: 48%;
+    top: 0;
+    width: 28px;
+}
+.nav-r {
+    float: right;
+    width: 80px;
+    overflow: hidden;
+    height: 50px;
+}
+.face {
+    float: left;
+}
+.check_more {
+    float: right;
+    margin-right: 10px;
+}

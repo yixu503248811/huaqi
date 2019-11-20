@@ -1,0 +1,9 @@
+<div class="nav-select">
+  <select name="" id="province" class="form-control l-ipt">
+      <option value="" *ngFor="let item of dateList" [value]="item.id">{{item.value}}</option>
+  </select>
+
+  <select name="" id="province" class="form-control r-ipt" (change)="changeDate($event.target.value);">
+      <option value="" *ngFor="let item of typeList" [value]="item.id">{{item.value}}</option>
+  </select>
+</div>

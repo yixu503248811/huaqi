@@ -1,0 +1,82 @@
+.history-main {
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.his-tab {
+    clear: both;
+    overflow: hidden;
+}
+.refresh {
+    position: absolute;
+    right: 8px;
+    top: 5px;
+    color: #999999;
+    cursor: pointer;
+    text-decoration: none;
+    cursor: pointer;
+}
+.his-data {
+    font-size: 16px;
+    width: 100%;
+    background: #f8f8f8;
+    color: #555555;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+}
+.his-des {
+    padding: 0 10px;
+    clear: both;
+    overflow: hidden;
+    border-bottom: 1px solid #e6dfdf;
+}
+.his-des:last-child {
+    border-bottom: none;
+}
+.history-img {
+    width: 30px;
+    opacity: 0.5;
+    float: left;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.his-r-text {
+    float: left;
+    height: 60px;
+    width: 184px;
+}
+.his-r-value {
+    float: right;
+    height: 60px;
+    width: 130px; 
+}
+.his-r-v-name {
+    float: left;
+    margin-top: 10px;
+    color: #d8a168;
+    width: 45px;
+    border: 1px solid #e9caaa;
+    border-radius: 32px;
+    font-size: 8px;
+    text-align: center;
+}
+.his-r-v-text {
+    margin-top: 4px;
+    float: right;
+    color: #9a9a9a;
+    font-size: 20px;
+}
+.his-r-name {
+    color: #525252;
+    font-size: 16px;
+    height: 28px;
+    line-height: 28px;
+}
+.his-r-des {
+    height: 24px;
+    line-height: 24px;
+    color: #b1acac;
+}

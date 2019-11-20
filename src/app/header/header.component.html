@@ -1,0 +1,23 @@
+<div id="header">
+
+  <p *ngIf="displayMessage" class="displayMessage">{{greetMessage}} </p>
+
+  <div class="person-head">
+    <div class="p-top">
+      <p class="t-time">{{ time }}</p>
+      <p class="p-balance">余额: {{ balance }}</p>
+    </div>
+    <div class="p-bottom">
+      <div class="p-expend">
+        <p class="p-e-title">支出</p>
+        <p class="p-e-text">￥<span class="p-e-value">{{ expend }}</span></p>
+      </div>
+      <div class="p-income">
+        <p class="p-c-title">收入</p>
+        <p class="p-i-text">￥<span class="p-i-value">{{ income }}</span></p>
+      </div>
+      <img class="icon_tanhao" src="../../assets/img/icon_tanhao.png" alt="icon_tanhao">
+    </div>
+    <p class="p-budget">预算 <span class="p-b-btn" (click)="setting()">您还为设置 ></span></p>
+  </div>
+</div>
