@@ -18,7 +18,7 @@ export class UserService {
   getPersonInfo() {
     return {
       "time": "08/2019",
-      "expend": "1, 833.16",
+      "expend": "1,833.16",
       "income": "147.49",
       "balance": "6,666.66"
     };

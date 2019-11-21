@@ -17,16 +17,8 @@ export class HeaderComponent implements OnInit {
   constructor(private user: UserService) { }
 
   ngOnInit() {
-    const response = this.user.getPersonInfo();
-    this.time = response.time;
-    this.balance = response.balance;
-    this.expend = response.expend;
-    this.income = response.income;
-    
-    console.log(response);
+    const response = this.user.getPersonInfo();    
     this.user.getAllState().subscribe(state => {
-      console.log(state);
-      
       if (state.login) {
         this.displayMessage = false;
         this.time = response.time;
