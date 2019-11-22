@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
 import { BillComponent } from './bill/bill.component';
 import { HistoryComponent } from './history/history.component';
 import { NavComponent } from './nav/nav.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,11 +20,12 @@ import { NavComponent } from './nav/nav.component';
     MainComponent,
     BillComponent,
     HistoryComponent,
-    NavComponent
+    NavComponent    
   ],
   imports: [
     FormsModule,
     BrowserModule,
+    HttpClientModule,
     StoreModule.forRoot(reducers, {
 
     })

@@ -1,6 +1,6 @@
 .person-head {
     margin: 0 10px;
-    border-radius: 24px;
+    border-radius: 12px;
     padding: 10px 5px;
     background: url('../../assets/img/bg.png');
 }
@@ -46,6 +46,7 @@
 }
 .p-budget {
     margin-left: 6px;
+    color: #f9d3c3;
 }
 .p-b-btn {
     cursor: pointer;

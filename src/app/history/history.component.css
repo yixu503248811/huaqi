@@ -4,12 +4,17 @@
     margin-bottom: 20px;
     position: relative;
 }
-
+.loading-img {
+    position: absolute;
+    top: 24%;
+    left: 24%;
+}
 .his-tab {
     clear: both;
     overflow: hidden;
 }
 .refresh {
+    font-size: 14px;
     position: absolute;
     right: 8px;
     top: 5px;
@@ -19,7 +24,7 @@
     cursor: pointer;
 }
 .his-data {
-    font-size: 16px;
+    font-size: 14px;
     width: 100%;
     background: #f8f8f8;
     color: #555555;
@@ -60,8 +65,10 @@
     width: 45px;
     border: 1px solid #e9caaa;
     border-radius: 32px;
-    font-size: 8px;
+    font-size: 9px;
     text-align: center;
+    height: 13px;
+    line-height: 13px;
 }
 .his-r-v-text {
     margin-top: 4px;
@@ -71,7 +78,7 @@
 }
 .his-r-name {
     color: #525252;
-    font-size: 16px;
+    font-size: 14px;
     height: 28px;
     line-height: 28px;
 }

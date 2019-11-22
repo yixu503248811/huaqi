@@ -1,0 +1,53 @@
+[
+    {
+        "datatime": "今天",
+        "detailsInfo": [
+            {
+                "image": "../../assets/img/icon_coffee.png",
+                "name": "支付宝-瑞幸咖啡",
+                "typename": "零食",
+                "type": "信用5793",
+                "time": "09:49:27",
+                "status": "未入账",
+                "value": "-￥ 6.72"
+            }
+        ]
+    },
+    {
+        "datatime": "昨天",
+        "detailsInfo": [
+            {
+                "image": "../../assets/img/icon_yes.png",
+                "name": "支付宝-衣服",
+                "typename": "衣服",
+                "type": "信用5793",
+                "time": "09:40:27",
+                "status": "未入账",
+                "value": "-￥ 6.88"
+            },
+            {
+                "image": "../../assets/img/icon_yes.png",
+                "name": "支付宝-裤子",
+                "typename": "裤子",
+                "type": "信用5793",
+                "time": "09:33:27",
+                "status": "已入账",
+                "value": "￥ 8.88"
+            }
+        ]
+    },
+    {
+        "datatime": "8月5日",
+        "detailsInfo": [
+            {
+                "image": "../../assets/img/icon_coffee.png",
+                "name": "支付宝-瑞幸咖啡",
+                "typename": "零食",
+                "type": "信用5793",
+                "time": "09:49:27",
+                "status": "已入账",
+                "value": "￥ 6.72"
+            }
+        ]
+    }
+]

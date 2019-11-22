@@ -1,10 +1,12 @@
 import { Injectable } from '@angular/core';
 import { AppReducerState } from './store/reducers/appReducer';
 import { Store } from '@ngrx/store';
+import { HttpClient } from '@angular/common/http';
+import { HistoryModel } from './model/historyModel';
 
 @Injectable()
 export class UserService {
-  constructor(private store: Store<AppReducerState>) {
+  constructor(private store: Store<AppReducerState>, private http: HttpClient) {
 
   }
   getAllState() {
@@ -15,12 +17,10 @@ export class UserService {
       type: obj.action
     });
   }
-  getPersonInfo() {
-    return {
-      "time": "08/2019",
-      "expend": "1,833.16",
-      "income": "147.49",
-      "balance": "6,666.66"
-    };
+  getPersonInfo(): any {
+    return this.http.get("/assets/personInfo.json");
+  }
+  getHistoryDetails(): any {
+    return this.http.get("/assets/historyDetails.json");
   }
 }
